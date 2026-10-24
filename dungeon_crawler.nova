@@ -3,7 +3,7 @@
 # own save log (dungeon_log.jsonl), written next to wherever it's run from.
 #
 # Run it with:
-#   python3 novalang.py examples/dungeon_crawler.nova
+#   python3 novalang.py dungeon_crawler.nova
 
 def make_monster(name, hp, atk) {
     assert(len(name) > 0, "a monster needs a name")

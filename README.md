@@ -1,6 +1,6 @@
 # NovaLang Dungeon
 
-A small turn-based dungeon crawler that runs in your terminal, written entirely in [NovaLang](#requirements).
+A small turn-based dungeon crawler that runs in your terminal, written entirely in NovaLang.
 
 You go down into the dungeon one fight at a time. Every fight is against a random monster. You trade blows, drink potions when things look bad, and run when you have to. Your health carries over from one fight to the next, so each step deeper is a gamble. When you stop, you see a record of every battle you've fought.
 
@@ -9,29 +9,32 @@ You go down into the dungeon one fight at a time. Every fight is against a rando
 What is your name, adventurer? Ada
 Welcome, Ada. Descend and survive.
 
-A wild Skeleton appears! (24 HP, 5 ATK)
+A wild Wraith appears! (28 HP, 6 ATK)
 
-Ada   [####################] 30/30 HP   potions: 3
-Skeleton   [####################] 24/24 HP
+Ada   [####################.] 30/30 HP   potions: 3
+Wraith   [####################.] 28/28 HP
 (a)ttack, (p)otion, (f)lee > a
-You strike the Skeleton for 7 damage.
-The Skeleton hits you for 6 damage.
+You strike the Wraith for 5 damage.
+The Wraith hits you for 7 damage.
 ```
 
 ---
 
 ## Requirements
 
-- **Python 3**
-- **The NovaLang interpreter** (`novalang.py`). It is **not included in this repository**, so you need your own copy.
+- **Python 3.7 or newer.** Nothing else is needed: there's no `pip install` and no build step.
+
+The NovaLang interpreter (`novalang.py`) is included in this repository.
 
 ## Running the game
 
-From the folder that holds `novalang.py`, pass it the path to the game file:
+From the repository folder, run:
 
 ```sh
-python3 novalang.py path/to/dungeon_crawler.nova
+python3 novalang.py dungeon_crawler.nova
 ```
+
+On macOS you can instead double-click **`Play Dungeon Crawler.command`**. It opens a Terminal window and starts the game. If macOS blocks it the first time, right-click it and choose **Open**.
 
 The game saves its battle log to `dungeon_log.jsonl` in your **current working directory**. Run it from the same folder each time if you want one continuous history.
 
@@ -107,6 +110,13 @@ All the game's balance numbers are near the top of `dungeon_crawler.nova`:
 
 ```
 .
-├── dungeon_crawler.nova   # the whole game
+├── dungeon_crawler.nova           # the whole game
+├── novalang.py                    # NovaLang interpreter (v1.1.0)
+├── Play Dungeon Crawler.command   # double-click launcher for macOS
+├── LICENSE                        # MIT licence for NovaLang
 └── README.md
 ```
+
+## License
+
+NovaLang is released under the MIT License. See [`LICENSE`](LICENSE).
