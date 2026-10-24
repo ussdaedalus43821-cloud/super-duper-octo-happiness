@@ -11,8 +11,8 @@ Welcome, Ada. Descend and survive.
 
 A wild Wraith appears! (28 HP, 6 ATK)
 
-Ada   [####################.] 30/30 HP   potions: 3
-Wraith   [####################.] 28/28 HP
+Ada   [####################] 30/30 HP   potions: 3
+Wraith   [####################] 28/28 HP
 (a)ttack, (p)otion, (f)lee > a
 You strike the Wraith for 5 damage.
 The Wraith hits you for 7 damage.
