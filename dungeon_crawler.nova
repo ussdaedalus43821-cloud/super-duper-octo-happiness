@@ -32,7 +32,7 @@ def bar(current, maxv, width) {
     if filled < 0 { filled = 0 }
     if filled > width { filled = width }
     let out = ""
-    for i = 0 to width {
+    for i = 0 to width - 1 {
         if i < filled {
             out = out + "#"
         } else {
