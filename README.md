@@ -113,10 +113,21 @@ All the game's balance numbers are near the top of `dungeon_crawler.nova`:
 ├── dungeon_crawler.nova           # the whole game
 ├── novalang.py                    # NovaLang interpreter (v1.1.0)
 ├── Play Dungeon Crawler.command   # double-click launcher for macOS
-├── LICENSE                        # MIT licence for NovaLang
+├── LICENSE-MIT                    # MIT license
+├── LICENSE-APACHE                 # Apache License 2.0
 └── README.md
 ```
 
 ## License
 
-NovaLang is released under the MIT License. See [`LICENSE`](LICENSE).
+Licensed under either of
+
+- Apache License, Version 2.0 ([`LICENSE-APACHE`](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license ([`LICENSE-MIT`](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
+
+at your option. The SPDX identifier is `MIT OR Apache-2.0`, the same as [NovaLang](https://github.com/ussdaedalus43821-cloud/Nova_Lang).
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in NovaLang Dungeon by you, as defined in the
+Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
+
+Earlier versions of this repository were published under the MIT license alone, and remain available under it.
